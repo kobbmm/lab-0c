@@ -1,4 +1,4 @@
-import newsdb from "./id/db"
+import newsdb from "./[id]/db"
 import Link from "next/link"
 import React from 'react';
 async function GetAllNews() {
