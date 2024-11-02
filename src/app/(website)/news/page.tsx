@@ -11,7 +11,7 @@ export default async function newspage(){
 
     return (
        
-    <>
+    <div>
       <div>
         หน้าแสดงรายการข่าว
       </div>
@@ -23,7 +23,7 @@ export default async function newspage(){
             ))}
         </ul>
       </div>
-    </>
+    </div>
       
     )
 }
