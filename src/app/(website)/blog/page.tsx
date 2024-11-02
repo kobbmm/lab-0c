@@ -12,7 +12,7 @@ const convertSlugToText = (slug: string): string => {
 const BlogPosts: React.FC = () => {
     return (
         <div>
-            <h2>Blog Titles</h2>
+            
             <ul>
                 {newsdb.map((post, index) => (
                     <li key={index}>{convertSlugToText(post.slug)}</li>
