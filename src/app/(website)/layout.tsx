@@ -10,12 +10,11 @@ export default function websitelayout({
     return(
         <>
         <div className="w-full h-16 bg-gray-800 flex items-center justify-between px-6 text-white shadow-md">
-        <div className="text-lg font-bold">MyWebsite</div>
+        <a href="/" className="text-lg font-bold">MyWebsite</a>
         <nav className="flex space-x-4">
         <a href="/" className="hover:text-gray-400 transition duration-300">Home</a>
         <a href="/login" className="hover:text-gray-400 transition duration-300">Login</a>
         <a href="/register" className="hover:text-gray-400 transition duration-300">Register</a>
-        <a href="/forgot-password" className="hover:text-gray-400 transition duration-300">Forgot Password?</a>
         </nav>
         </div>
 
