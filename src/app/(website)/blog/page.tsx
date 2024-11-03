@@ -11,7 +11,7 @@ const convertSlugToText = (slug: string): string => {
 
 const BlogPosts: React.FC = () => {
     return (
-        <div>
+        <div className="bg-gradient-to-r from-black via-black to-black text-white">
             
             <ul>
                 {newsdb.map((post, index) => (

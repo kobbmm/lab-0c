@@ -35,10 +35,10 @@ export default function Result() {
     }, [router]);
 
     return (
-        <div className="flex justify-center items-center min-h-screen bg-gray-100 flex-col">
+        <div className="flex justify-center items-center min-h-screen bg-gradient-to-r from-black via-black to-black flex-col">
             {!loading ? (
                 <div>
-                    <h1 className="text-2xl font-bold text-center">{message}</h1>
+                    <h1 className="text-2xl font-bold text-center text-white">{message}</h1>
                     {showLoadingBar && (
                         <div className="w-full h-2 bg-gray-300 rounded-lg mt-4 shadow-md overflow-hidden">
                             <div className="bg-blue-600 h-full animate-loadingBar"></div>

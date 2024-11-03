@@ -11,7 +11,7 @@ export default async function newspage(){
 
     return (
        
-    <div>
+    <div className="bg-gradient-to-r from-black via-black to-black text-white">
       <div>
         หน้าแสดงรายการข่าว
       </div>

@@ -28,7 +28,7 @@ export default function RegisterForm() {
     };
 
     return (
-        <div className="flex justify-center items-center min-h-screen bg-gradient-to-r from-green-400 via-blue-500 to-purple-500">
+        <div className="flex justify-center items-center min-h-screen bg-gradient-to-r from-black via-black to-black">
             <form onSubmit={handleSubmit} className="grid gap-6 p-8 bg-white rounded-lg shadow-lg w-full max-w-md ">
                 <h2 className="text-2xl font-bold text-center text-gray-700 mb-6">Create Your Account</h2>
 

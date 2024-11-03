@@ -14,7 +14,7 @@ const geistMono = localFont({
 });
 
 export const metadata = {
-  title: "Login - Chaow Chaow Project :)",
+  title: "Chaow Chaow Project :)",
   description: "เข้าสู่ระบบของ Chaow Chaow Project",
 };
 

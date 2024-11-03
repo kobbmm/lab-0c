@@ -8,8 +8,8 @@ export default function websitelayout({
 }
 ){
     return(
-        <>
-        <div className="w-full h-16 bg-gray-800 flex items-center justify-between px-6 text-white shadow-md">
+        <div className="bg-gradient-to-r from-black via-black to-black">
+        <div className="w-full h-16 bg-red-800 flex items-center justify-between px-6 text-white shadow-md">
         <a href="/" className="text-lg font-bold">MyWebsite</a>
         <nav className="flex space-x-4">
         <a href="/profile" className="hover:text-gray-400 transition duration-300">Profile</a>
@@ -21,9 +21,9 @@ export default function websitelayout({
         <a href="/login" className="hover:text-gray-400 transition duration-300">Login</a>
         </nav>
         </div>
-
-           <div className="">{children}</div>
-        </>
+        <div className="min-h-screen">{children}</div>
+       
+        </div>
     )
 }    
 
