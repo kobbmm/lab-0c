@@ -9,7 +9,7 @@ export default async function DisplayNewsByIDPage({
 
     return (
       <>
-      <div>
+      <div className="text-white">
         หน้าแสดงข้อมูลข่าวที่ {params.id}
       </div>
       </>
